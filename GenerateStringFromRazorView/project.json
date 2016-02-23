@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "GenerateStringFromRazorView Console Application",
+  "authors": [ "Adrien Constant" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0-rc2-16276",
+    "Microsoft.AspNetCore.Html.Abstractions": "1.0.0-rc2-16187",
+    "Microsoft.AspNetCore.Mvc.Abstractions": "1.0.0-rc2-17011",
+    "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.0.0-rc2-17011",
+    "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.0-rc2-17011",
+    "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0-rc2-17011",
+    "Microsoft.AspNetCore.Mvc.Localization": "1.0.0-rc2-17011",
+    "Microsoft.AspNetCore.Mvc.Razor": "1.0.0-rc2-17011",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-17011",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-16002",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-16544",
+    "Microsoft.AspNetCore.Hosting": "1.0.0-rc2-16276",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0-rc2-16198"
+  },
+
+  "commands": {
+    "GenerateStringFromRazorView": "GenerateStringFromRazorView"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}
